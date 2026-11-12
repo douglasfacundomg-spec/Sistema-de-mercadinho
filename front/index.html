@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Fullstack - Mongoose</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Mercadorias</h1>
+        <p class="subtitle">(Entrada e Saida)</p>
+
+        <!-- Formulário para envio de dados -->
+        <form id="meuFormulario">
+            <label for="nomeInput">Produto/Informação:</label>
+            <input type="text" id="nomeInput" placeholder="Cadastro" required>
+            <button type="submit">Salvar no Sistema</button>
+        </form>
+
+        <!-- Seção para listar os dados do banco -->
+        <div class="lista-container">
+            <h2>Itens Adicionados:</h2>
+            <ul id="listaDados">
+                <!-- Os dados virão dinamicamente via JavaScript -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
